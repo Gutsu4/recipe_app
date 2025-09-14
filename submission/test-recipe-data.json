@@ -1,0 +1,406 @@
+{
+  "test_recipes": [
+    {
+      "name": "チキンカレー",
+      "description": "スパイス香る本格的なチキンカレー。家庭でも簡単に作れます。",
+      "servings": 4,
+      "cooking_time": 45,
+      "calories": 520,
+      "protein": 28.5,
+      "fat": 18.2,
+      "carbs": 65.3,
+      "fiber": 4.2,
+      "sodium": 850,
+      "sugar": 8.5,
+      "ingredients": [
+        {
+          "name": "鶏もも肉",
+          "amount": "400g"
+        },
+        {
+          "name": "玉ねぎ",
+          "amount": "2個"
+        },
+        {
+          "name": "トマト缶",
+          "amount": "1缶(400g)"
+        },
+        {
+          "name": "カレー粉",
+          "amount": "大さじ2"
+        },
+        {
+          "name": "ココナッツミルク",
+          "amount": "200ml"
+        },
+        {
+          "name": "にんにく",
+          "amount": "2片"
+        },
+        {
+          "name": "しょうが",
+          "amount": "1片"
+        },
+        {
+          "name": "サラダ油",
+          "amount": "大さじ2"
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "鶏もも肉を一口大に切り、塩こしょうで下味をつける。"
+        },
+        {
+          "instruction": "玉ねぎ、にんにく、しょうがをみじん切りにする。"
+        },
+        {
+          "instruction": "フライパンに油を熱し、鶏肉を焼いて一旦取り出す。"
+        },
+        {
+          "instruction": "同じフライパンで玉ねぎを炒め、透明になったらにんにく、しょうがを加える。"
+        },
+        {
+          "instruction": "カレー粉を加えて香りが立つまで炒める。"
+        },
+        {
+          "instruction": "トマト缶、ココナッツミルク、鶏肉を戻し入れ30分煮込む。"
+        },
+        {
+          "instruction": "塩こしょうで味を調えて完成。"
+        }
+      ],
+      "categories": ["主菜", "汁物"]
+    },
+    {
+      "name": "シーザーサラダ",
+      "description": "クリーミーなドレッシングが絶品のシーザーサラダ。",
+      "servings": 2,
+      "cooking_time": 15,
+      "calories": 180,
+      "protein": 8.2,
+      "fat": 15.8,
+      "carbs": 6.4,
+      "fiber": 2.1,
+      "sodium": 420,
+      "sugar": 3.2,
+      "ingredients": [
+        {
+          "name": "ロメインレタス",
+          "amount": "1玉"
+        },
+        {
+          "name": "パルメザンチーズ",
+          "amount": "50g"
+        },
+        {
+          "name": "クルトン",
+          "amount": "適量"
+        },
+        {
+          "name": "マヨネーズ",
+          "amount": "大さじ3"
+        },
+        {
+          "name": "アンチョビ",
+          "amount": "2枚"
+        },
+        {
+          "name": "にんにく",
+          "amount": "1片"
+        },
+        {
+          "name": "レモン汁",
+          "amount": "大さじ1"
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "ロメインレタスを洗って一口大にちぎる。"
+        },
+        {
+          "instruction": "にんにくをみじん切り、アンチョビを細かく刻む。"
+        },
+        {
+          "instruction": "ボウルでマヨネーズ、にんにく、アンチョビ、レモン汁を混ぜ合わせる。"
+        },
+        {
+          "instruction": "レタスにドレッシングを和える。"
+        },
+        {
+          "instruction": "パルメザンチーズとクルトンをトッピングして完成。"
+        }
+      ],
+      "categories": ["サラダ", "前菜"]
+    },
+    {
+      "name": "チョコレートケーキ",
+      "description": "しっとり濃厚なチョコレートケーキ。特別な日にぴったりです。",
+      "servings": 8,
+      "cooking_time": 90,
+      "calories": 420,
+      "protein": 6.8,
+      "fat": 22.5,
+      "carbs": 58.2,
+      "fiber": 3.8,
+      "sodium": 180,
+      "sugar": 45.6,
+      "ingredients": [
+        {
+          "name": "薄力粉",
+          "amount": "150g"
+        },
+        {
+          "name": "ココアパウダー",
+          "amount": "30g"
+        },
+        {
+          "name": "砂糖",
+          "amount": "120g"
+        },
+        {
+          "name": "卵",
+          "amount": "2個"
+        },
+        {
+          "name": "バター",
+          "amount": "100g"
+        },
+        {
+          "name": "牛乳",
+          "amount": "100ml"
+        },
+        {
+          "name": "ベーキングパウダー",
+          "amount": "小さじ1"
+        },
+        {
+          "name": "バニラエッセンス",
+          "amount": "数滴"
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "オーブンを180度に予熱する。"
+        },
+        {
+          "instruction": "バターを室温に戻し、砂糖と混ぜ合わせる。"
+        },
+        {
+          "instruction": "卵を1個ずつ加えて混ぜる。"
+        },
+        {
+          "instruction": "薄力粉とココアパウダー、ベーキングパウダーをふるい入れる。"
+        },
+        {
+          "instruction": "牛乳とバニラエッセンスを加えて混ぜる。"
+        },
+        {
+          "instruction": "型に流し入れ、180度のオーブンで40分焼く。"
+        },
+        {
+          "instruction": "竹串を刺して何もついてこなければ完成。"
+        }
+      ],
+      "categories": ["デザート"]
+    },
+    {
+      "name": "野菜炒め",
+      "description": "シャキシャキ食感を活かした栄養満点の野菜炒め。",
+      "servings": 3,
+      "cooking_time": 12,
+      "calories": 95,
+      "protein": 3.2,
+      "fat": 6.8,
+      "carbs": 8.5,
+      "fiber": 3.6,
+      "sodium": 520,
+      "sugar": 5.2,
+      "ingredients": [
+        {
+          "name": "キャベツ",
+          "amount": "1/4玉"
+        },
+        {
+          "name": "人参",
+          "amount": "1/2本"
+        },
+        {
+          "name": "もやし",
+          "amount": "1袋"
+        },
+        {
+          "name": "ピーマン",
+          "amount": "2個"
+        },
+        {
+          "name": "豚バラ肉",
+          "amount": "100g"
+        },
+        {
+          "name": "醤油",
+          "amount": "大さじ1"
+        },
+        {
+          "name": "塩こしょう",
+          "amount": "少々"
+        },
+        {
+          "name": "ごま油",
+          "amount": "大さじ1"
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "野菜を食べやすい大きさに切る。"
+        },
+        {
+          "instruction": "豚バラ肉を一口大に切る。"
+        },
+        {
+          "instruction": "フライパンにごま油を熱し、豚肉を炒める。"
+        },
+        {
+          "instruction": "人参、ピーマンを加えて炒める。"
+        },
+        {
+          "instruction": "キャベツ、もやしを加えて強火で炒める。"
+        },
+        {
+          "instruction": "醤油、塩こしょうで味付けして完成。"
+        }
+      ],
+      "categories": ["主菜", "副菜"]
+    },
+    {
+      "name": "味噌汁",
+      "description": "だしの効いた基本の味噌汁。毎日の食卓に欠かせません。",
+      "servings": 4,
+      "cooking_time": 8,
+      "calories": 35,
+      "protein": 2.1,
+      "fat": 1.2,
+      "carbs": 3.8,
+      "fiber": 1.5,
+      "sodium": 890,
+      "sugar": 2.1,
+      "ingredients": [
+        {
+          "name": "味噌",
+          "amount": "大さじ2"
+        },
+        {
+          "name": "豆腐",
+          "amount": "1/2丁"
+        },
+        {
+          "name": "わかめ",
+          "amount": "適量"
+        },
+        {
+          "name": "ねぎ",
+          "amount": "1本"
+        },
+        {
+          "name": "だしの素",
+          "amount": "小さじ1"
+        },
+        {
+          "name": "水",
+          "amount": "600ml"
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "水を鍋に入れ、だしの素を加えて煮立てる。"
+        },
+        {
+          "instruction": "豆腐を一口大に切る。"
+        },
+        {
+          "instruction": "わかめを水で戻しておく。"
+        },
+        {
+          "instruction": "豆腐とわかめを鍋に加える。"
+        },
+        {
+          "instruction": "味噌を少量の煮汁で溶いてから鍋に戻す。"
+        },
+        {
+          "instruction": "ねぎを小口切りにして加え、ひと煮立ちさせて完成。"
+        }
+      ],
+      "categories": ["汁物"]
+    },
+    {
+      "name": "オムライス",
+      "description": "ふわふわ卵が自慢の昔懐かしいオムライス。",
+      "servings": 2,
+      "cooking_time": 25,
+      "calories": 680,
+      "protein": 18.5,
+      "fat": 28.2,
+      "carbs": 85.6,
+      "fiber": 2.8,
+      "sodium": 1200,
+      "sugar": 8.9,
+      "ingredients": [
+        {
+          "name": "ご飯",
+          "amount": "茶碗2杯分"
+        },
+        {
+          "name": "鶏もも肉",
+          "amount": "100g"
+        },
+        {
+          "name": "玉ねぎ",
+          "amount": "1/2個"
+        },
+        {
+          "name": "卵",
+          "amount": "4個"
+        },
+        {
+          "name": "ケチャップ",
+          "amount": "大さじ3"
+        },
+        {
+          "name": "バター",
+          "amount": "20g"
+        },
+        {
+          "name": "塩こしょう",
+          "amount": "少々"
+        },
+        {
+          "name": "サラダ油",
+          "amount": "大さじ1"
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "鶏肉と玉ねぎを一口大に切る。"
+        },
+        {
+          "instruction": "フライパンに油を熱し、鶏肉と玉ねぎを炒める。"
+        },
+        {
+          "instruction": "ご飯を加えて炒め、ケチャップで味付けする。"
+        },
+        {
+          "instruction": "チキンライスをお皿に盛る。"
+        },
+        {
+          "instruction": "卵を溶いて塩こしょうを加える。"
+        },
+        {
+          "instruction": "フライパンにバターを熱し、卵を流し入れ半熟に仕上げる。"
+        },
+        {
+          "instruction": "チキンライスの上に卵をのせて完成。"
+        }
+      ],
+      "categories": ["主食", "主菜"]
+    }
+  ]
+}
