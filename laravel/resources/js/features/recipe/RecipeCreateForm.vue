@@ -68,7 +68,7 @@ const handleSubmit = () => {
         categories: selectedCategories.value
     }
     console.log(recipeData);
-    useRecipeRepository().store(recipeData)
+    recipeRepository.store(recipeData)
         .then(response => {
             alert('レシピが作成されました！')
             router.push('/detail' + '/' + response.data.id)
@@ -81,8 +81,8 @@ const handleSubmit = () => {
 
 <template>
     <div>
-        <PageHeader 
-            title="レシピ作成" 
+        <PageHeader
+            title="レシピ作成"
             :show-back-button="true"
             back-url="/"
         />
@@ -298,9 +298,9 @@ const handleSubmit = () => {
 
         <!-- Submit Button -->
         <div class="text-center">
-            <BaseButton 
-                variant="primary" 
-                size="lg" 
+            <BaseButton
+                variant="primary"
+                size="lg"
                 @click="handleSubmit"
             >
                 レシピを作成
