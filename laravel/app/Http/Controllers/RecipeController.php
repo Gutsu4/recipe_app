@@ -10,13 +10,34 @@ use Illuminate\Support\Facades\Validator;
 
 class RecipeController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $recipes = Recipe::with([
+        $query = Recipe::with([
             'ingredients',
             'steps',
             'categories'
-        ])->get();
+        ]);
+
+        // ソート機能
+        $orderBy = $request->get('OrderBy', 'id');
+        $order = $request->get('Order', 'desc');
+        
+        // ソート可能なカラムを制限（仕様に合わせて）
+        $allowedSortColumns = [
+            'id', 'name', 'calories', 'cookingTime'
+        ];
+        
+        // cookingTimeをcooking_timeにマッピング
+        $columnMap = [
+            'cookingTime' => 'cooking_time'
+        ];
+        
+        if (in_array($orderBy, $allowedSortColumns)) {
+            $actualColumn = $columnMap[$orderBy] ?? $orderBy;
+            $query->orderBy($actualColumn, $order === 'asc' ? 'asc' : 'desc');
+        }
+
+        $recipes = $query->get();
         return response()->json($recipes);
     }
 

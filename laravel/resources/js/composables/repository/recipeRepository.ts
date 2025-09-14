@@ -6,9 +6,16 @@ export const useRecipeRepository = () => {
         /**
          * 取得する
          */
-        list() {
+        list(orderBy?: string, order?: string) {
+            const params = new URLSearchParams();
+            if (orderBy) params.append('OrderBy', orderBy);
+            if (order) params.append('Order', order);
+            
+            const queryString = params.toString();
+            const url = queryString ? `${resource}?${queryString}` : resource;
+            
             return useBaseAxios(
-                `${resource}`,
+                url,
                 {
                     method: "GET",
                 },
