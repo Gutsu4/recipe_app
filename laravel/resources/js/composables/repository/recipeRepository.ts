@@ -17,5 +17,63 @@ export const useRecipeRepository = () => {
                 },
             );
         },
+        /**
+         * 詳細を取得する
+         */
+        show(id: number) {
+            return useBaseAxios(
+                `${resource}${id}`,
+                {
+                    method: "GET",
+                },
+                (response) => {
+                    return response.data;
+                },
+            );
+        },
+        /**
+         * 登録する
+         */
+        store(data: any) {
+            return useBaseAxios(
+                `${resource}`,
+                {
+                    method: "POST",
+                    data: data,
+                },
+                (response) => {
+                    response.data
+                },
+            );
+        },
+        /**
+         * 更新する
+         */
+        update(id: number, data: any) {
+            return useBaseAxios(
+                `${resource}${id}`,
+                {
+                    method: "PUT",
+                    data: data,
+                },
+                (response) => {
+                    response.data
+                },
+            );
+        },
+        /**
+         * 削除する
+         */
+        delete(id: number) {
+            return useBaseAxios(
+                `${resource}${id}`,
+                {
+                    method: "DELETE",
+                },
+                (response) => {
+                    return response.data;
+                },
+            );
+        },
     }
 }

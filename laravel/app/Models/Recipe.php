@@ -18,6 +18,9 @@ class Recipe extends Model
         'protein',
         'fat',
         'carbs',
+        'fiber',
+        'sodium',
+        'sugar',
     ];
 
     public function ingredients()
